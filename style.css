@@ -50,11 +50,13 @@ section:nth-child(odd){
   height: 50px;
   line-height: 50px;
   /* ここからborder-radiusプロパティを追加 */
+  border-radius: 10px;
 }
 
 /* 画像を丸くする */
 .border-radius-img{
   /* ここからborder-radiusプロパティを追加 */
+  border-radius: 75px;
 }
 
 /* box-shadowの練習*/
@@ -64,6 +66,7 @@ section:nth-child(odd){
   height: 80px;
   margin: auto;
   /* ここからbox-shadowプロパティを追加 */
+  box-shadow: 3px 3px 0px rgba(0,0,0,0.7) inset;
 }
 
 /* text-shadowの練習*/
@@ -73,6 +76,7 @@ section:nth-child(odd){
   font-weight: bold;
   margin: auto;
   /* ここからtext-shadowプロパティを追加 */
+  text-shadow: 3px 3px 0px rgba(255, 0, 0, 0.3)
 }
 
 /* linear-gradientの練習 */
