@@ -128,5 +128,42 @@ section:nth-child(odd){
 }
 
 /* hoverの練習 */
+.hover{
+  text-align: center;
+}
+.hover a{
+  background: skyblue;
+  color: #fff;
+  width:150px;
+  height:50px;
+  display:inline-block;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 50px;
+  font-size: 24px;
+}
+.hover a:hover{
+  background: orange ;
+}
 
 /* transitionの練習 */
+.hover-transition{
+  text-align: center;
+}
+.hover-transition a{
+  background: skyblue;
+  color: #fff;
+  width:150px;
+  height:50px;
+  display:inline-block;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 50px;
+  font-size: 24px;
+  transition:  700ms ;
+}
+.hover-transition a:hover{
+  background: orange ;
+}
