@@ -103,10 +103,20 @@ section:nth-child(odd){
   width: 300px;
   margin: auto;
   /* line-heightを追加 */
+  line-height: 2;
 }
 
 /* line-heightでボタンの高さを調整 */
 .line-height-button a{
+  width: 150px;
+  height: 30px;
+  display: inline-block;
+  background: #9b4dca;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
 }
 
 /* letter-spacingの練習 */
