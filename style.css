@@ -124,6 +124,7 @@ section:nth-child(odd){
   width: 300px;
   margin: auto;
   /* letter-spacingを追加 */
+  letter-spacing: 10px;
 }
 
 /* hoverの練習 */
